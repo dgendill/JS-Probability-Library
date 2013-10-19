@@ -1,0 +1,36 @@
+#problem, #settings {
+	width:300px;
+	margin:20px auto;
+	padding:15px;
+}
+#problem {
+	background:#f5f5f5;
+	border:1px solid #eee;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#settings {
+	clear:both;
+	overflow:hidden;
+	margin:0 auto;
+	background: #ccc;
+	border: 1px solid #bbb;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+#settings:after { content: '' }
+#settings input, #settings label {
+	display:block;
+	float:left;
+}
+#settings label {
+	clear:left;
+	width:87px;
+	text-align:right;
+	height:24px;
+	line-height:24px;
+}
+p { margin: 0; }
